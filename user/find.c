@@ -52,8 +52,7 @@ void find(char *path, char *name){
 }
 
 int
-main(int argc, char *argv[])
-{
+main(int argc, char *argv[]){
   if(argc != 3){
     fprintf(2, "find: the number of parameter is wrong ");
     exit(1);
